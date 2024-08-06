@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>newReactPractice</title>
       </Head>
       <Component {...pageProps} />
     </>
