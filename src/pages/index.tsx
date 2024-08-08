@@ -6,7 +6,7 @@ import iniad from './iniad.jpg';
 const Home = () => {
   return (
     <div className={styles.container}>
-      <img className="iniad" src={iniad.src} alt="avatar" />
+      <img className="iniad" src={iniad.src} alt="iniad" />
       <h1>Welcome to my app</h1>
       <p>{myVariable}</p>
       <AboutPage />
