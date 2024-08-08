@@ -1,5 +1,17 @@
+import useCount from '../hooks/useCount';
 function Mybotton() {
-  return <button>I&apos;m a button</button>;
+  const { count, increment, decrement } = useCount();
+  return (
+    <div>
+      <p>Count:{count}</p>
+      <button onClick={() => decrement()} className="decrementButtomn">
+        Click me!
+      </button>
+      <button onClick={() => increment()} className="incrementButton">
+        Click Me!
+      </button>
+    </div>
+  );
 }
 
 export const myVariable = Math.sqrt(2);
