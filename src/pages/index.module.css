@@ -15,9 +15,18 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100%;
+  height: 20%;
+  border-top: 10px solid #1bfd9c;
+  border-bottom: 10px solid #1bfd9c;
 }
 
-.iniad img {
-  border: solid 10px #777;
+.big {
+  font-size: 100px;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
