@@ -1,5 +1,6 @@
 import AboutPage from '../component/aboutpage';
 import Mybotton, { myVariable } from '../component/mybutton';
+import User from '../component/user';
 import styles from './index.module.css';
 import iniad from './iniad.jpg';
 
@@ -11,8 +12,8 @@ const Home = () => {
       <p>{myVariable}</p>
       <AboutPage />
       <Mybotton />
+      <User />
     </div>
   );
 };
-
 export default Home;

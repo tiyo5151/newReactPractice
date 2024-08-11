@@ -5,8 +5,10 @@ function Mybotton() {
   return (
     <div className="styles.counter">
       <p className={styles.big}>Count:{count}</p>
-      <button onClick={() => decrement()}>Click me!</button>
-      <button onClick={() => increment()}>Click Me!</button>
+      <div className={styles.coolbutton}>
+        <button onClick={() => decrement()}>Click me!</button>
+        <button onClick={() => increment()}>Click Me!</button>
+      </div>
     </div>
   );
 }
