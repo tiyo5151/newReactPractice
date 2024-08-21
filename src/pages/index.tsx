@@ -1,8 +1,8 @@
 import AboutPage from '../component/aboutpage';
 import Mybotton, { myVariable } from '../component/mybutton';
-import User from '../component/user';
+import Profile from '../component/profile';
+import iniad from '../images/iniad.jpg';
 import styles from './index.module.css';
-import iniad from './iniad.jpg';
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       <p>{myVariable}</p>
       <AboutPage />
       <Mybotton />
-      <User />
+      <Profile />
     </div>
   );
 };

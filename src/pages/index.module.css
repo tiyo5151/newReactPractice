@@ -37,3 +37,26 @@
   align-items: center;
   justify-content: center;
 }
+
+.parent {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+
+.child1 {
+  grid-row: span 3 / span 3;
+  grid-row-start: 2;
+  grid-column: span 2 / span 2;
+  grid-column-start: 2;
+}
+
+.child2 {
+  grid-row: span 2 / span 2;
+  grid-row-start: 2;
+  grid-column: span 2 / span 2;
+  grid-column-start: 5;
+  align-items: center;
+  justify-content: center;
+}
