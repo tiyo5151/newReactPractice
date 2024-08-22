@@ -60,3 +60,18 @@
   align-items: center;
   justify-content: center;
 }
+
+.avatar {
+  border-radius: 50%;
+}
+
+.loginForm {
+  padding: 2rem;
+  background-color: rgb(81 8 81);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}

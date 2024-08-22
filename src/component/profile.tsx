@@ -12,7 +12,7 @@ export default function Profile(): React.ReactElement {
     <div className={styles.parent}>
       <div className={styles.child1}>
         <img
-          className="avatar"
+          className={styles.avatar}
           src={profile.src}
           alt={`Photo of ${user.name}`}
           style={{

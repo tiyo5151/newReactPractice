@@ -1,5 +1,6 @@
 import AboutPage from '../component/aboutpage';
 import Mybotton, { myVariable } from '../component/mybutton';
+import Products from '../component/products';
 import Profile from '../component/profile';
 import iniad from '../images/iniad.jpg';
 import styles from './index.module.css';
@@ -13,6 +14,7 @@ const Home = () => {
       <AboutPage />
       <Mybotton />
       <Profile />
+      <Products />
     </div>
   );
 };

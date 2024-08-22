@@ -1,5 +1,6 @@
 import useCount from '../hooks/useCount';
 import styles from '../pages/index.module.css';
+import LoginForm from './login';
 function Mybotton() {
   const { count, increment, decrement } = useCount();
   return (
@@ -9,6 +10,8 @@ function Mybotton() {
         <button onClick={() => decrement()}>Click me!</button>
         <button onClick={() => increment()}>Click Me!</button>
       </div>
+      <hr color="black" />
+      {count % 7 === 0 && <LoginForm />}
     </div>
   );
 }
