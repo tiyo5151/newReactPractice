@@ -1,7 +1,7 @@
-import AboutPage from '../component/aboutpage';
-import Mybotton, { myVariable } from '../component/mybutton';
-import Products from '../component/products';
-import Profile from '../component/profile';
+import AboutPage from '../components/aboutPage';
+import MyButton, { myVariable } from '../components/myButton';
+import Products from '../components/products';
+import Profile from '../components/profile';
 import iniad from '../images/iniad.jpg';
 import styles from './index.module.css';
 
@@ -12,7 +12,10 @@ const Home = () => {
       <h1>Welcome to my app</h1>
       <p>{myVariable}</p>
       <AboutPage />
-      <Mybotton />
+      <h2>互いに独立</h2>
+      <MyButton />
+      <MyButton />
+      <h2>互いに同期</h2>
       <Profile />
       <Products />
     </div>
