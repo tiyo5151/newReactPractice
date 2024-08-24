@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styles from '../pages/index.module.css';
+import type { SyncButtonElementsProps } from '../types/syncButtonElementsProps';
 import LoginForm from './login';
 
 export default function SyncButton() {
@@ -21,11 +22,6 @@ export default function SyncButton() {
   );
 }
 
-interface MyButtonProps {
-  count: number;
-  onClick: () => void;
-}
-
-function MyButton({ count, onClick }: MyButtonProps) {
+function MyButton({ count, onClick }: SyncButtonElementsProps) {
   return <button onClick={onClick}>Clicked {count} times</button>;
 }
